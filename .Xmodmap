@@ -1,0 +1,17 @@
+clear mod3
+clear mod4
+clear mod5
+clear Lock 
+keycode 66 = Hyper_L
+keycode 133 = Mode_switch
+add mod4 = Hyper_L
+add mod3 = Mode_switch
+keysym h = h H Left NoSymbol NoSymbol NoSymbol
+keysym j = j J Down NoSymbol NoSymbol NoSymbol
+keysym k = k K Up NoSymbol NoSymbol NoSymbol
+keysym l = l L Right NoSymbol lstroke Lstroke
+keycode 49 = Escape asciitilde grave asciitilde 
+keycode 48 = apostrophe quotedbl grave asciitilde apostrophe quotedbl
+
+
+
