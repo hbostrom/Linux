@@ -2,25 +2,29 @@ clear mod3
 clear mod4
 clear mod5
 clear Lock 
-keycode 66 = Hyper_L
-keycode 133 = Mode_switch
+keycode 66 = Hyper_L Hyper_L Hyper_L Hyper_L
+keycode 133 = Mode_switch Mode_switch Mode_switch Mode_switch
 add mod4 = Hyper_L
 add mod3 = Mode_switch
-keysym h = h H Left Home
-keysym j = j J Down Next
-keysym k = k K Up Prior
-keysym l = l L Right End
+keycode 43 = h H Left
+keycode 44 = j J Down
+keycode 45 = k K Up
+keycode 46 = l L Right
+keycode 58 = m M Home
+keycode 59 = comma less Next
+keycode 60 = period greater Prior
+keycode 61 = slash question End
 keycode 49 = Escape asciitilde grave asciitilde 
 keycode 48 = apostrophe quotedbl grave asciitilde apostrophe quotedbl
-keycode  10 = 1 exclam F1 F1 1 exclam
-keycode  11 = 2 at F2 F2 2 at
-keycode  12 = 3 numbersign F3 F3 3 numbersign
-keycode  13 = 4 dollar F4 F4 4 dollar
-keycode  14 = 5 percent F5 F5 5 percent
-keycode  15 = 6 asciicircum F6 F6 6 asciicircum
-keycode  16 = 7 ampersand F7 F7 7 ampersand
-keycode  17 = 8 asterisk F8 F8 8 asterisk
-keycode  18 = 9 parenleft F9 F9 9 parenleft
-keycode  19 = 0 parenright F10 F10 0 parenright
-keycode  20 = minus underscore F11 F11 minus underscore
-keycode  21 = equal plus F12 F12 equal plus
+keycode 10 = 1 exclam F1 F1 1 exclam
+keycode 11 = 2 at F2 F2 2 at
+keycode 12 = 3 numbersign F3 F3 3 numbersign
+keycode 13 = 4 dollar F4 F4 4 dollar
+keycode 14 = 5 percent F5 F5 5 percent
+keycode 15 = 6 asciicircum F6 F6 6 asciicircum
+keycode 16 = 7 ampersand F7 F7 7 ampersand
+keycode 17 = 8 asterisk F8 F8 8 asterisk
+keycode 18 = 9 parenleft F9 F9 9 parenleft
+keycode 19 = 0 parenright F10 F10 0 parenright
+keycode 20 = minus underscore F11 F11 minus underscore
+keycode 21 = equal plus F12 F12 equal plus
