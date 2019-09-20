@@ -1,0 +1,3 @@
+cat | awk '/^Exec=/ {sub("^Exec=", ""); gsub(" ?%[cDdFfikmNnUuv]", ""); exit system($0)}' &
+sleep 2
+i3-msg border pixel 10
